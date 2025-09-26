@@ -11,7 +11,7 @@ namespace Tyuiu.KolganenkoRV.Sprint1.Task3.V7.Test
             DataService ds = new DataService();
             double x = 2;
             var res = ds.VerstsToKilometers(x);
-            Assert.AreEqual(2.133, res);
+            Assert.AreEqual(2.134, res);
         }
     }
 }
